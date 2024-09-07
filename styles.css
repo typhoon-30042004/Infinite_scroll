@@ -26,4 +26,5 @@ html {
 
 body {
     scrollbar-width: thin; /* For Firefox */
+    overflow: auto;
 }
