@@ -1,5 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
+html, body {
+    height: 100%; /* Ensure full height is considered */
     margin: 0;
     padding: 0;
 }
@@ -17,4 +17,13 @@ body {
     text-align: center;
     padding: 20px;
     display: none; /* Hidden by default */
+}
+
+/* Cross-browser scrollbar support */
+html {
+    -ms-overflow-style: scrollbar; /* For IE and Edge */
+}
+
+body {
+    scrollbar-width: thin; /* For Firefox */
 }
